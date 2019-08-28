@@ -1,0 +1,17 @@
+{
+    "name": "ivoglent/ip2c",
+    "description": "Convert IP address to country code or name",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ivoglent Nguyen",
+            "email": "ivoglent@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ivoglent\\ip2c\\" : "./src"
+        }
+    }
+}
