@@ -13,7 +13,7 @@ class CsvHelper
      * @return array|bool|false|null
      */
     public static function findInCsv($file, $str, $columnIndex) {
-        $f = fopen($file,"r");
+        $f = fopen($file,'r');
         while (!feof($f)) {
             $data = fgetcsv($f);
             if (isset($data[$columnIndex]) && $data[$columnIndex] === $str) {
